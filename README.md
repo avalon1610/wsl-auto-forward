@@ -1,6 +1,6 @@
 # wsl-auto-forward
 
-## wsl-auto-forward - A tool that can automatically forward local TCP requests to WSL2
+## A tool that can automatically forward local TCP requests to WSL2
 
 ### Why another tool
 - Accessing WSL2 via localhost occasionally fails
@@ -10,9 +10,8 @@
 
 use cargo (need **nightly**)
 ```rust
-cargo install wsl-auto-forward
+cargo +nightly install wsl-auto-forward
 ```
-
 or download from Release
 
 ### Features
