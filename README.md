@@ -10,7 +10,7 @@
 
 use cargo (need **nightly**)
 ```rust
-cargo install wsl-auto-forward
+cargo +nightly install wsl-auto-forward
 ```
 
 or download from Release
