@@ -1,11 +1,7 @@
 [package]
 edition = "2021"
 name = "wsl-auto-forward"
-version = "0.1.0"
-repository = "https://github.com/avalon1610/wsl-auto-forward"
-homepage = "https://github.com/avalon1610/wsl-auto-forward"
-description = "A tool that can automatically forward local TCP requests to WSL2"
-license = "MIT"
+version = "0.2.1"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -13,7 +9,9 @@ license = "MIT"
 anyhow = "1.0.58"
 bytes = "1.1.0"
 env_logger = "0.9.0"
+futures = "0.3.25"
 log = "0.4.17"
 parking_lot = "0.12.1"
+paste = "1.0.9"
 structopt = "0.3.26"
 tokio = {version = "1", features = ["full"]}
